@@ -1,0 +1,84 @@
+/*CSS DOCUMENT*/
+body{
+  font-family: 'Spartan', sans-serif;
+  background-color: #FDF9F3;
+  padding: 1em 2.5em 1em 2.5em;
+}
+
+img {
+    width: 100%;
+}
+
+nav ul{
+  text-align: left;
+  padding-left: 0em;
+  margin-left: 0em;
+}
+
+nav ul li{
+  font-size: .85em;
+  font-weight: 500;
+  display: inline;
+}
+
+nav ul li a{
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: .5em;
+  color: #574711;
+}
+
+nav ul li a:hover{
+  color: #b3a166;
+}
+
+h1{
+  width: 8em;
+}
+
+h1.menu {
+  text-align: left;
+  width: auto;
+  color: #574711;
+  text-transform: uppercase;
+}
+
+h2{
+font-weight: 600;
+text-transform: uppercase;
+color: #99190b;
+}
+
+h3{
+  font-weight: 600;
+  margin: 0em;
+  padding: .25em;
+  text-align: left;
+}
+
+h4{
+  font-weight:500;
+}
+
+p{
+  line-height: 1.8em;
+  margin-top: 0em;
+  margin-bottom: 2em;
+}
+
+
+figure{
+  margin: 0em;
+}
+
+section ul {
+  text-align: left;
+  list-style-type: none;
+}
+
+@media screen and (min-width: 50em) {
+html{
+  max-width: 55em;
+  margin: auto;
+}
+}
