@@ -68,6 +68,9 @@ input:nth-of-type(8):checked ~ main figure:nth-of-type(8)
   opacity: 1;
 }
 
+.photogallery label{
+  display: none;
+}
 /* newsletter */
 
 section{
